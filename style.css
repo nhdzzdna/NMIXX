@@ -1,0 +1,1080 @@
+*{
+    margin: 0;
+    transition: 1s ease;
+}
+
+body{
+    font-family: "Londrina Solid";
+    height: 3600px;
+    background: linear-gradient(0deg, #809BC4, #B9B0D6, #F5CFE9, #eef6ff, #e7e3ff);
+    background-image: url("assets/bg.png")
+}
+
+.halaman1{
+    height: 593px;
+}
+
+.A{
+    width: 100%;
+    height: 225px;
+    display: grid;
+    grid-template-columns: 5% 35% 20% 10% 30%;
+}
+
+.B{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.C{
+    width: 100%;
+    height: 210px;
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+}
+
+.nmixx{
+    position: relative;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.nmixx p{
+    font-size: 150px;
+    width: 350px;
+    margin:0; 
+    position: absolute;
+    transform: translate(-52%);
+}
+
+.nmixx p:nth-child(1){
+    color: transparent;
+    -webkit-text-stroke: 2px #ffff;
+    text-shadow: 0px 0px 15px #d8d2fc;
+}
+
+.nmixx p:nth-child(2){
+    color: white;
+    -webkit-text-stroke: 2px #ffff;
+    animation: animate 4s ease-in-out infinite;
+}
+
+.paus{
+    width:350px;
+}
+
+.ubur1{
+    width:350px;
+    height: fit-content;
+    padding-left: 100px;
+}
+
+.kerang{
+    width:150px;    
+    height: fit-content;
+    padding-left: 60px;
+    grid-column-start: 3;
+}
+
+.bintanglaut{
+    width:140px;
+    padding-top: 80px;
+    padding-left: 60px;
+}
+
+.kudalaut{
+    width:250px;
+    padding-bottom: 80px;
+    padding-left: 60px;
+}
+
+.ubur2{
+    width:250px;
+    padding-left: 80px;
+
+}
+
+.halaman1 img{
+    filter: brightness(110%);
+}
+
+/*==========BATAS HALAMAN 1========================================================================================================*/
+
+.halaman2{
+    height: 523px;
+}
+.groupIntro{
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fotoGrup{
+    width: 300px;
+    height: fit-content;
+    margin: 20px 50px;
+    cursor: pointer;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.fotoGrup:hover{
+    animation: spin 10s linear infinite;    
+}
+
+.intro{
+    width: 800px;
+    font-size: 30px;
+    color: #628ab2;
+    margin: 0px 20px;    
+}
+
+.intro1{
+    font-size: 60px;
+    height: 60px;
+    color: #ffffff;
+    text-shadow: 2px 3px 0px #628ab2;
+    -webkit-text-stroke: 1px #628ab2;
+}
+
+.intro2{
+    text-shadow: 2px 1.5px 0px #ffffff;
+}
+
+.intro2 a {
+    color:#628ab2;
+    text-decoration-line: none;
+    transition: none;
+}
+.intro2 a:hover {
+    color: #ffffff;
+    -webkit-text-stroke: 1.2px #628ab2;
+    text-shadow: 2px 1.5px 0px #628ab2;
+    transition: none;
+}
+
+/*==========BATAS HALAMAN 2========================================================================================================*/
+
+.halaman3{
+    height: 593px;
+}
+
+.memberIntro{
+    padding-top: 100px;
+    text-align: center;
+    margin: 0px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.memberIntro1{
+    font-size: 60px;
+    color: #ffffff;
+    -webkit-text-stroke: 0.8px #8377a8;
+    text-shadow: 3px 3px 0px #8377a8;
+}
+
+.memberIntro2{
+    font-size: 30px;
+    padding-top: 10px;;
+    color:#ffffff;
+    text-shadow: 0px 0px 2px #8377a8, 2px 1.5px 0px #8377a8;
+}
+
+.fotoMember img{
+    width:190px;
+    height: fit-content;
+}
+
+.fotoMember{
+    margin: 70px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+.fotoMember img:hover{
+    width: 220px;
+}
+
+/*==========BATAS HALAMAN 3========================================================================================================*/
+
+.halaman4{
+    height: 593px;
+}
+
+.diskografi{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.judulH4{
+    height: 100px;
+    align-items: center;
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.judulH4 p{
+    color: #c39bc5;
+    text-shadow: 2px 2px 0px #ffffff, 4px 4px 0px #c39bc5;
+    -webkit-text-stroke: 1px #ffffff; 
+    font-size: 80px;       
+}
+
+.hr1{
+    margin: 10px 50px 0px 50px;
+    height: 2px;
+    border-width:0;
+    background-color: #c39bc5;
+}
+
+.hr2{
+    margin: 0px 50px 0px 50px;
+    height: 3px;
+    border-width:0;
+    background-color: #ffffff;
+}
+
+.hr3{
+    margin: 0px 50px 0px 50px;
+    height: 2px;
+    border-width:0;
+    background-color: #c39bc5;
+}
+
+.spotify{
+    height: 70px;
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;   
+    margin-top: 20px;
+    padding-top: 1px;
+    padding-left: 20px;    
+}
+
+.logospotify{
+    width: 50px;
+    height: fit-content;
+    background-color: #c39bc5;
+    padding: 10px;
+    border-radius: 100%;
+    margin-top: 2px;
+}
+
+.spotify p{
+    font-size: 25px;
+    color: transparent;
+    text-shadow: none;
+    -webkit-text-stroke: 0;
+}
+
+.isiH4{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    margin: 30px 40px;
+    flex-wrap: wrap; 
+}
+
+.isiH4 img{
+    width: 100px;
+    height: fit-content;
+    border-radius: 5px;
+    margin: 10px;
+    filter: grayscale(1);
+    transition: none;
+}
+
+
+.admare, .entwurf, .YDS, .expergo, .RC, .midsummer, .sonar, .break, .SO{
+    height: 120px;
+    background-color: #0000005a;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: none;    
+}
+
+.isiH4 a{
+    text-decoration-line: none;
+}
+
+.admare:hover, .entwurf:hover, .YDS:hover, .expergo:hover, .RC:hover, .midsummer:hover, .sonar:hover, .break:hover, .SO:hover{
+    background-color: #000000b6;
+    transition: none;
+}
+
+.admare div, .entwurf div, .YDS div, .expergo div, .RC div, .midsummer div, .sonar div, .break div, .SO div{
+    width: 250px;
+    max-width: 250px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.admare h2, .entwurf h2, .YDS h2, .expergo h2, .RC h2, .midsummer h2, .sonar h2, .break h2, .SO h2{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.638);
+}
+
+/*==========BATAS HALAMAN 4========================================================================================================*/
+
+.halaman5{
+    height: 593px;
+    margin-bottom: 100px;
+}
+
+.cover{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;    
+}
+
+.judulH5{
+    height: 90px;
+    display: flex;
+    justify-content: center;  
+    font-size: 70px;
+    animation: judul 1s ease infinite;
+    transition: none;
+    color:#f8d8f2;
+    -webkit-text-stroke: 1px #ffffff;
+    text-shadow: 2.5px 2.5px 0px #000000;
+    transition: none;
+}
+
+.isiH5{
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+    padding-top: 20px;
+    margin: 20px 20px 0px 20px;  
+    background-color: white;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+.happy, .thunderous, .ES, .survivor, .HM, .VN{
+    background-color: #f5cfe97e;
+    width: 280px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;  
+    margin-bottom: 20px;  
+}
+
+.isiH5 video{
+    width: 250px;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.isiH5 p{
+    margin-bottom: 20px;  
+    text-align: center;  
+}
+
+/*==========BATAS HALAMAN 5========================================================================================================*/
+
+.halaman6{
+    height: 593px;
+    display: flex;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.judulH6{
+    width: 350px;
+    font-size: 80px;
+    align-content: center;
+    color: #305279;
+    -webkit-text-stroke: 2px #ffffff;
+    text-shadow: 3px 3px 2px #305279;
+    animation: sosmed 2.1s steps(1) infinite;
+    padding-left: 30px;
+}
+
+.judulH6 *{
+    transition: none;
+}
+
+.judulH6 span{
+    color: #ffffff;
+    -webkit-text-stroke: 2px #305279;
+    animation: enmiks 2.1s steps(1) infinite;
+}
+
+.isiH6{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sosmed{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sosmed div{
+    height: 50px;
+    width: 300px;
+    align-items: center;
+    background-color: #305279;
+    margin: 5px 0px;
+    border-radius: 50px;
+    display: flex;
+}
+
+.sosmed div:hover{
+    height: 60px;
+    width: 350px;
+    background-color: #1d2d41;
+    transform: translate(-7%);
+}
+
+.isiH6 img{
+    width: 25px;
+    height: fit-content;
+    margin: 10px 18px;
+    align-items: center;
+}
+
+.sosmed p{
+    width: 250px;
+    align-content: center;
+    color: white;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-left: 30px;
+}
+
+.sosmed a{
+    text-decoration-line: none;
+}
+
+.judulH6 a{
+    text-decoration-line: none;
+}
+
+.judulH6 a:hover{
+    text-shadow: 2px 3px 0px #305279, 5px 5px 0px #ffffff, 7px 7px 0px #305279;
+}
+
+/*==========BATAS HALAMAN 6========================================================================================================*/
+
+@keyframes animate{
+    0%, 100%{
+        clip-path: polygon(0% 57%, 12% 51%, 22% 50%, 32% 51%, 41% 54%, 53% 58%, 64% 61%, 75% 60%, 87% 54%, 100% 51%, 100% 99%, 0% 100%);
+    }
+    50%{
+        clip-path: polygon(0% 57%, 10% 61%, 20% 63%, 30% 64%, 42% 63%, 51% 60%, 61% 54%, 75% 50%, 90% 52%, 100% 58%, 100% 99%, 0% 100%);
+    }
+}
+
+@keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+
+@keyframes judul{
+    0%, 100%{
+
+        font-size: 70px;
+    }
+    50%{
+        font-size: 90px;      
+    }
+}
+
+@keyframes sosmed{
+    0%, 100%{
+        color: #305279;
+        -webkit-text-stroke: 2px #ffffff;
+    }
+    50%{
+        color: #ffffff;
+        -webkit-text-stroke: 2px #305279;
+    }
+}
+
+@keyframes enmiks{
+    0%, 100%{
+        color: #ffffff;
+        -webkit-text-stroke: 2px #305279;
+    }
+    50%{
+        color: #305279;
+        -webkit-text-stroke: 2px #ffffff;
+    }
+}
+
+/*==========BATAS HALAMAN========================================================================================================*/
+
+@media (max-width: 1220px){
+    .halaman5{
+        margin-top: 300px;
+    }
+
+    .halaman4{
+        margin-top: 200px;
+    }
+
+    .admare div, .entwurf div, .YDS div, .expergo div, .RC div, .midsummer div, .sonar div, .break div, .SO div{
+        width: 220px;
+        max-width:220px;
+        letter-spacing: 2px;
+    }
+}
+
+@media (max-width: 1100px){
+    .halaman3{
+        padding-bottom: 200px;
+    }
+
+    .admare div, .entwurf div, .YDS div, .expergo div, .RC div, .midsummer div, .sonar div, .break div, .SO div{
+        width: 180px;
+        max-width:180px;
+    }
+
+    .admare h1, .entwurf h1, .YDS h1, .expergo h1, .RC h1, .midsummer h1, .sonar h1, .break h1, .SO h1{
+        font-size: 25px;
+    }
+
+
+}
+
+@media (max-width: 883px){
+    .halaman6{
+        padding-top: 100px;
+        height: 700px;
+    }
+}
+
+@media (max-width: 860px){
+    .paus{
+        width:250px;
+    }
+
+    .ubur1{
+        width:200px;
+    }
+
+    .kerang{
+        width:100px;    
+    }
+    
+    .bintanglaut{
+        width:70px;
+    }
+
+    .kudalaut{
+        width:180px;
+    }
+
+    .ubur2{
+        width:180px;   
+        padding-right: 30px;
+        padding-left: 0;
+    }
+
+    .fotoGrup{
+        width:200px;
+        grid-column-start: 1;
+    }
+
+    .intro{
+        font-size: 22px;
+        width: 350px;
+        margin-right: 20px;
+    }
+
+    .intro1{
+        font-size: 40px;
+    }
+
+    .memberIntro1{
+        font-size: 40px;
+    }
+
+    .memberIntro2{
+        font-size: 25px;
+        padding-top: 10px;;
+    }
+
+    .fotoMember{
+        margin-top: 30px; 
+    }
+
+    .fotoMember img{
+        width:160px;
+        padding-top: 10px; 
+              
+    }
+    .fotoMember img:hover{
+        width:180px; 
+    }
+
+    .halaman5{
+        margin-top: 200px;
+    }
+
+    .judulH4{
+        height: 60px;
+    }
+
+    .judulH4 p{
+        font-size: 50px;       
+    }
+    
+    .spotify{
+        height: 40px;
+        width: 260px;
+        padding: 0px 0px 0px 10px;  
+    }
+    
+    .logospotify{
+        width: 27px;
+        height: fit-content;
+        padding: 5px;
+    }
+    
+    .spotify p{
+        font-size: 16px;
+    }
+    
+    .isiH4 img{
+        width: 80px;
+    }
+    
+    .admare, .entwurf, .YDS, .expergo, .RC, .midsummer, .sonar, .break, .SO{
+        height: 100px;
+    }
+      
+    .admare div, .entwurf div, .YDS div, .expergo div, .RC div, .midsummer div, .sonar div, .break div, .SO div{
+        width: 180px;
+        max-width:180px;
+    }
+
+    .admare h2, .entwurf h2, .YDS h2, .expergo h2, .RC h2, .midsummer h2, .sonar h2, .break h2, .SO h2{
+        font-size: 12px;
+    }
+
+    .halaman3{
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 794px){
+    .judulH6{
+        font-size: 55px;
+        text-align: center;
+        padding-top: 50px;
+        text-shadow: 2px 2px 2px #305279;
+        margin: 0px 30px;
+        padding-left: 0px;
+    }
+
+    .isiH6{
+        padding-bottom: 50px;
+    }
+
+    .judulH6 a:hover{
+        text-shadow: 2px 2px 0px #305279, 3px 4px 0px #ffffff, 5px 6px 0px #305279;
+    }
+
+    @keyframes sosmed{
+        0%, 100%{
+            color: #305279;
+            -webkit-text-stroke: 1px #ffffff;
+        }
+        50%{
+            color: #ffffff;
+            -webkit-text-stroke: 1px #305279;
+        }
+    }
+
+    @keyframes enmiks{
+        0%, 100%{
+            color: #ffffff;
+            -webkit-text-stroke: 1px #305279;
+        }
+        50%{
+            color: #305279;
+            -webkit-text-stroke: 1px #ffffff;
+        }
+    }
+}
+
+@media (max-width: 650px){
+    .isiH4 img{
+        width: 60px;
+    }
+    
+    .admare, .entwurf, .YDS, .expergo, .RC, .midsummer, .sonar, .break, .SO{
+        height: 80px;
+    }
+      
+    .admare div, .entwurf div, .YDS div, .expergo div, .RC div, .midsummer div, .sonar div, .break div, .SO div{
+        width: 120px;
+        max-width:120px;
+        letter-spacing: 2px;
+    }
+
+    .admare h1, .entwurf h1, .YDS h1, .expergo h1, .RC h1, .midsummer h1, .sonar h1, .break h1, .SO h1{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 605px){
+    .halaman1{
+        margin-top: 80px;
+    }
+
+    .halaman3{
+        margin-top: 80px;
+    }
+
+    .groupIntro{
+        padding-top: 50px;
+    }
+
+    .nmixx p{
+        font-size: 130px;
+    }
+
+    .paus{
+        width:200px;
+        padding-top:30px;
+    }
+
+    .ubur1{
+        width:150px;
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+
+    .kerang{
+        width:80px; 
+        padding-top: 30px;  
+        padding-left: 30px; 
+    }
+    
+    .bintanglaut{
+        width:70px;
+    }
+
+    .kudalaut{
+        width:150px;
+        padding-left: 30px;
+    }
+
+    .ubur2{
+        width:150px;   
+        padding-right: 30px;
+        padding-left: 0;
+    }
+
+    .groupIntro{
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .intro{
+        flex-wrap: wrap;
+        width: 350px;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .memberIntro1{
+        font-size: 30px;
+        text-shadow: 2px 2px 0px #8377a8;
+        
+    }
+
+    .memberIntro2{
+        font-size: 20px;
+        padding-top: 10px;;
+    }
+
+    .fotoMember img{
+        width:150px;
+        padding-top: 10px;    
+    }
+
+    .fotoMember img:hover{
+        width:170px; 
+    }
+
+    .halaman5{
+        margin-top: 200px;
+    }
+
+    .judulH4 p{
+        font-size: 40px;       
+    }
+    
+    .spotify{
+        height: 25px;
+        width: 200px;
+        padding: 2px 0px 0px 10px;  
+    }
+    
+    .logospotify{
+        width: 20px;
+        height: fit-content;
+        padding: 3px;
+    }
+    
+    .spotify p{
+        font-size: 13px;
+    }
+
+    .halaman5{
+        margin-top: 200px;
+    }
+
+    .judulH5{
+        font-size: 50px;
+    }
+
+    .isiH5 video{
+        width: 210px;
+    }
+
+    .happy, .thunderous, .ES, .survivor, .HM, .VN{
+        width: 240px;
+        height: 165px;
+        border-radius: 20px;  
+        margin-bottom: 20px;  
+    }
+
+    .survivor{
+        font-size: 13px;
+    }
+
+    @keyframes judul {
+        0%, 100%{
+            font-size: 50px;
+        }
+        50%{
+            font-size: 70px;
+        }
+    }
+}
+
+@media (max-width: 550px){
+    .halaman1{
+        margin-top: 20px;
+    }
+
+    .fotoMember img{
+        width: 120px;
+    }
+
+    .isiH5{
+        max-width: 500px;
+        border-radius: 20px;
+    }
+
+    .isiH5 video{
+        width: 170px;
+        margin-top: 10px;   
+        border-radius: 10px;     
+    }
+
+    .happy, .thunderous, .ES, .survivor, .HM, .VN{
+        width: 190px;
+        height: 135px;
+        border-radius: 15px;
+        margin-bottom: 10px;  
+    }
+
+    .survivor p{
+        font-size: small;
+    }
+
+}
+
+@media (max-width: 500px){
+        .isiH4 img{
+            width: 80px;
+        }
+        
+        .admare, .entwurf, .YDS, .expergo, .RC, .midsummer, .sonar, .break, .SO{
+            flex-direction: column;
+            justify-content: space-between;
+            height: 150px;
+        }
+          
+        .admare div, .entwurf div, .YDS div, .expergo div, .RC div, .midsummer div, .sonar div, .break div, .SO div{
+            width: 100px;
+            max-width:100px;
+            height: 70px;
+            letter-spacing: 2px;
+            align-items: center;  
+        }
+    
+        .admare h1, .entwurf h1, .YDS h1, .expergo h1, .RC h1, .midsummer h1, .sonar h1, .break h1, .SO h1{
+            font-size: 12px;
+            letter-spacing: 1px;
+            padding: 0px 10px 0px 10px                
+        }
+
+        .admare h2, .entwurf h2, .YDS h2, .expergo h2, .RC h2, .midsummer h2, .sonar h2, .break h2, .SO h2{
+            font-size: 8px;
+            padding: 2px 10px 0px 10px  
+        }
+
+        .judulH4{
+            height: 40px;
+        }
+
+        .judulH4 p{
+            font-size: 35px;       
+        }
+        
+        .logospotify{
+            width: 20px;
+            height: fit-content;
+        }
+        
+        .spotify{
+            height: 25px;
+            width: 100px;
+            padding: 2px 0px 0px 10px; 
+            margin-top: 5px; 
+            margin-bottom: 0px;
+        }
+    
+        .spotify p{
+            font-size: 10px;
+        }
+
+}
+
+@media (max-width: 424px){
+    .halaman6{
+        margin-top: 400px;
+    }
+}
+
+@media (max-width: 400px){
+    .halaman1{
+        margin-top: 60px;
+    }
+
+    .halaman5{
+        margin-top: 100px;   
+    }
+
+    .spotify{
+        height: 30px;
+        width: 100px;
+        padding: 2px 0px 0px 10px;  
+    }
+
+    .spotify p{
+        font-size: 10px;
+    }
+
+    .isiH4 img{
+        width: 70px;
+        margin-bottom: 4px;
+    }
+    
+    .admare, .entwurf, .YDS, .expergo, .RC, .midsummer, .sonar, .break, .SO{
+        height: 130px;
+    }
+      
+    .admare div, .entwurf div, .YDS div, .expergo div, .RC div, .midsummer div, .sonar div, .break div, .SO div{
+        width: 90px;
+        max-width:90px;
+        height: 40px;
+        letter-spacing: 2px;
+        align-items: center;  
+    }
+
+    .admare h1, .entwurf h1, .YDS h1, .expergo h1, .RC h1, .midsummer h1, .sonar h1, .break h1, .SO h1{
+        font-size: 10px;
+        letter-spacing: 1px;             
+    }
+
+    .admare h2, .entwurf h2, .YDS h2, .expergo h2, .RC h2, .midsummer h2, .sonar h2, .break h2, .SO h2{
+        font-size: 7px;
+        padding: 2px 10px 0px 10px  
+    }
+
+    .judulH5{
+        font-size: 40px;
+        height: 60px;
+    }
+
+    @keyframes judul {
+        0%, 100%{
+            font-size: 40px;
+        }
+        50%{
+            font-size: 60px;
+        }
+
+}
+}
+
+@media (max-width:380px){
+    .kerang{
+        padding-top: 0px;
+    }
+}
+
+@media (max-width:350px){
+    .halaman5{
+        margin-top: 300px;
+    }    
+
+    .judulH4 p{
+        font-size: 30px;
+    }
+
+    .spotify{
+        height: 20px;
+        width: 80px;
+        padding: 2px 0px 0px 10px;  
+    }
+
+    .logospotify{
+        width: 15px;
+    }
+
+    .spotify p{
+        font-size: 8px;
+    }
+}
+
+@media (max-width:319px){
+    .halaman4{
+        margin-top: 600px;
+    }
+}
