@@ -152,6 +152,15 @@ album.addEventListener("mouseout", function(){
     document.querySelector(".break img").style.filter = "grayscale(1)";
 });
 
+var album = document.querySelector('.break');
+album.addEventListener("mouseover", function(){
+    document.querySelector(".SO img").style.filter = "grayscale(0)";
+    document.querySelector(".SO img").style.filter = "brightness(120%)";
+});    
+album.addEventListener("mouseout", function(){
+    document.querySelector(".SO img").style.filter = "grayscale(1)";
+});
+
 //==========================================================================================
 
 var sosmed = document.querySelector('.ig');
