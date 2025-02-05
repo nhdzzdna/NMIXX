@@ -152,7 +152,7 @@ album.addEventListener("mouseout", function(){
     document.querySelector(".break img").style.filter = "grayscale(1)";
 });
 
-var album = document.querySelector('.break');
+var album = document.querySelector('.SO');
 album.addEventListener("mouseover", function(){
     document.querySelector(".SO img").style.filter = "grayscale(0)";
     document.querySelector(".SO img").style.filter = "brightness(120%)";
