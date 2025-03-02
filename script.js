@@ -222,3 +222,6 @@ sosmed.addEventListener("mouseout", function(){
     document.querySelector(".wb img").style.width = "25px";
     document.querySelector(".wb p").style.fontSize = "22px";
 });
+
+
+AOS.init();
